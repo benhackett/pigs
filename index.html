@@ -28,6 +28,7 @@
        Modernizr enables HTML5 elements & feature detects for optimal performance.
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
+
 </head>
 <body>
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
@@ -44,10 +45,10 @@
 
 
       <div class="row">
-        <div class="span7" style="text-align:center">
-          <a class="btn btn-primary btn-large">
+        <div id="projector" class="span7" style="text-align:center">
+          <button class="btn btn-primary btn-large">
             Projector On
-          </a>
+          </button>
         </div>
       </div>
     </div>
@@ -76,6 +77,7 @@
   <!-- scripts concatenated and minified via build script -->
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/projector.js"></script>
   <!-- end scripts -->
 
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
@@ -86,5 +88,6 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
+
 </body>
 </html>
